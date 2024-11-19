@@ -52,7 +52,7 @@ material.roughness = 0.2;
 const ambientLight = new THREE.AmbientLight(0xffffff, 1); // Increased intensity
 scene.add(ambientLight);
 
-const pointLight = new THREE.PointLight(0xffffff, 1); // Increased intensity
+const pointLight = new THREE.PointLight(0x0000ff, 1); // Increased intensity
 pointLight.position.set(2, 3, 4);
 scene.add(pointLight);
 
